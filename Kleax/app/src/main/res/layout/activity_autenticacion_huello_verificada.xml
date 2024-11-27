@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".autenticacion_huello_verificada">
+
+    <RelativeLayout
+        android:id="@+id/autenticaci"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToOutline="true"
+        android:background="#FDE9D7"
+        tools:ignore="MissingConstraints">
+
+        <View
+            android:id="@+id/huella_dact"
+            android:layout_width="96dp"
+            android:layout_height="104dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="37dp"
+            android:background="@drawable/huella_dact" />
+
+        <View
+            android:id="@+id/rectangle_6"
+            android:layout_width="210dp"
+            android:layout_height="82dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="-90dp"
+            android:background="@drawable/rectangle_6" />
+
+        <View
+            android:id="@+id/rectangle_5"
+            android:layout_width="170dp"
+            android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="-100dp"
+            android:background="@drawable/rectangle_5"
+            />
+
+        <TextView
+            android:id="@+id/huella_digi"
+            android:layout_width="255dp"
+            android:layout_height="45dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="86dp"
+            android:layout_marginTop="80dp"
+            android:gravity="top"
+            android:text="@string/huella_digi"
+            android:textAppearance="@style/huella_digi"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/escanee_su_"
+            android:layout_width="278dp"
+            android:layout_height="61dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="74dp"
+            android:layout_marginTop="180dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/escanee_su_"
+            android:textAppearance="@style/escanee_su_"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/escaneando_"
+            android:layout_width="136dp"
+            android:layout_height="33dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="282dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="@string/escaneando_"
+            android:textAppearance="@style/escaneando_"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/escaneohuella"
+            android:layout_width="148dp"
+            android:layout_height="141dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="139dp"
+            android:layout_marginTop="324dp"
+            android:background="@drawable/escaneohuella" />
+
+        <View
+            android:id="@+id/line_3"
+            android:layout_width="70dp"
+            android:layout_height="2dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/line_3" />
+
+        <View
+            android:id="@+id/line_4"
+            android:layout_width="70dp"
+            android:layout_height="2dp"
+            android:layout_marginStart="340dp"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/line_4" />
+
+        <TextView
+            android:id="@+id/verificando"
+            android:layout_width="206dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="490dp"
+            android:gravity="top"
+            android:text="@string/verificando"
+            android:textAppearance="@style/verificando"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/rectangle_4"
+            android:layout_width="285dp"
+            android:layout_height="120dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-90dp"
+            android:layout_marginTop="600dp"
+            android:background="@drawable/rectangle_4" />
+
+        <View
+            android:id="@+id/rectangle_3"
+            android:layout_width="200dp"
+            android:layout_height="75dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="-50dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="580dp"
+            android:background="@drawable/rectangle_3"
+            />
+
+        <View
+            android:id="@+id/huellavalidasombra"
+            android:layout_width="121dp"
+            android:layout_height="121dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="58dp"
+            android:layout_marginTop="580dp"
+            android:background="@drawable/huellavalidasombra" />
+
+        <View
+            android:id="@+id/huellavalida"
+            android:layout_width="121dp"
+            android:layout_height="121dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="580dp"
+            android:background="@drawable/huellavalida" />
+
+    </RelativeLayout>
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="213dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

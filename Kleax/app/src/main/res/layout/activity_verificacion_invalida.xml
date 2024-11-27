@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".verificacion_invalida">
+
+    <RelativeLayout
+        android:id="@+id/verificaci_"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/verificaci_"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:ignore="MissingConstraints" >
+
+        <View
+            android:id="@+id/botonerrado"
+            android:layout_width="100dp"
+            android:layout_height="96dp"
+            android:layout_marginStart="164dp"
+            android:layout_marginTop="360dp"
+            android:background="@drawable/botonerrado" />
+
+        <TextView
+            android:id="@+id/procesoinvalido"
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:layout_marginStart="89dp"
+            android:layout_marginTop="500dp"
+            android:gravity="center"
+            android:text="@string/procesoinvalido"
+            android:textAppearance="@style/procesoinvalido"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/verifique_g"
+            android:layout_width="280dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="74dp"
+            android:layout_marginTop="560dp"
+            android:text="@string/verifique_g"
+            android:textAppearance="@style/verifique_g"
+            android:gravity="center"
+            />
+
+        <View
+            android:id="@+id/back"
+            android:layout_width="22dp"
+            android:layout_height="26dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="372dp"
+            android:layout_marginTop="826dp"
+            android:background="@drawable/back" />
+
+    </RelativeLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

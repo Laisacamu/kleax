@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".autenticacion_email">
+
+    <RelativeLayout
+        android:id="@+id/autenticaci"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FDE9D7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ExtraText">
+
+        <View
+            android:id="@+id/rectangle_1"
+            android:layout_width="310dp"
+            android:layout_height="80dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="58dp"
+            android:layout_marginTop="29dp"
+            android:background="@drawable/rectangle_1" />
+
+        <ImageView
+            android:id="@+id/letter"
+            android:layout_width="79dp"
+            android:layout_height="63dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="174dp"
+            android:layout_marginTop="38dp"
+            android:contentDescription="@string/CARTA"
+            android:scaleType="fitCenter"
+            android:src="@drawable/letter"
+            tools:ignore="ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/verifique_s"
+            style="@style/verifique_s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="134dp"
+            android:background="@android:color/transparent"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="@string/verifique_s"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/verifique_m"
+            style="@style/verifique_m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="195dp"
+            android:background="@android:color/transparent"
+            android:gravity="center_horizontal"
+            android:padding="8dp"
+            android:text="@string/verifique_m"
+            tools:ignore="TextSizeCheck,TextSizeCheck" />
+
+        <RelativeLayout
+            android:id="@+id/buttons_lar"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="276dp"
+            android:background="@drawable/buttons_lar">
+
+            <TextView
+                android:id="@+id/verifique_a"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="-130dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:text="@string/verifique_a"
+                android:textAppearance="@style/verifique_a" />
+
+            <TextView
+                android:id="@+id/edit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="240dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:text="@string/edit"
+                android:textAppearance="@style/edit"
+                tools:ignore="DuplicateIds,RtlSymmetry" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/edit"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginStart="270dp"
+            android:layout_marginTop="290dp"
+            android:src="@drawable/edit2"
+            tools:ignore="DuplicateIds" />
+
+
+        <RelativeLayout
+            android:id="@+id/input_field"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="370dp"
+            android:background="@drawable/input_field" />
+
+        <RelativeLayout
+            android:id="@+id/input_field"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="370dp"
+            android:background="@drawable/input_field"
+            tools:ignore="DuplicateIds" />
+
+        <RelativeLayout
+            android:id="@+id/input_field"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="370dp"
+            android:background="@drawable/input_field"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/some_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="105dp"
+            android:layout_marginTop="382dp"
+            android:gravity="center_horizontal"
+            android:text="@string/some_id"
+            android:textAppearance="@style/some_id"
+            tools:ignore="DuplicateIds" />
+
+        <RelativeLayout
+            android:id="@+id/input_field"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="370dp"
+            android:background="@drawable/input_field"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/some_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="382dp"
+            android:gravity="center_horizontal"
+            android:text="@string/some_id"
+            android:textAppearance="@style/some_id"
+            tools:ignore="DuplicateIds" />
+
+        <RelativeLayout
+            android:id="@+id/input_field"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="260dp"
+            android:layout_marginTop="370dp"
+            android:background="@drawable/input_field"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/some_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="280dp"
+            android:layout_marginTop="382dp"
+            android:gravity="center_horizontal"
+            android:text="@string/some_id"
+            android:textAppearance="@style/some_id"
+            tools:ignore="DuplicateIds" />
+
+        <RelativeLayout
+            android:id="@+id/input_field"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="370dp"
+            android:background="@drawable/input_field"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/some_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="340dp"
+            android:layout_marginTop="382dp"
+            android:gravity="center_horizontal"
+            android:text="@string/some_id"
+            android:textAppearance="@style/some_id"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/some_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="220dp"
+            android:layout_marginTop="382dp"
+            android:gravity="center_horizontal"
+            android:text="@string/some_id"
+            android:textAppearance="@style/some_id"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/some_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="382dp"
+            android:gravity="center_horizontal"
+            android:text="@string/some_id"
+            android:textAppearance="@style/some_id"
+            tools:ignore="DuplicateIds" />
+
+
+        <View
+            android:id="@+id/rectangle_4"
+            android:layout_width="396dp"
+            android:layout_height="197dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-270dp"
+            android:layout_marginTop="530dp"
+            android:background="@drawable/rectangle_4" />
+
+        <View
+            android:id="@+id/rectangle_3"
+            android:layout_width="267dp"
+            android:layout_height="131dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-205dp"
+            android:layout_marginTop="470dp"
+            android:background="@drawable/rectangle_3" />
+
+        <View
+            android:id="@+id/rectangle_6"
+            android:layout_width="342dp"
+            android:layout_height="175dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="550dp"
+            android:layout_marginEnd="-170dp"
+            android:background="@drawable/rectangle_6" />
+
+        <View
+            android:id="@+id/rectangle_5"
+            android:layout_width="210dp"
+            android:layout_height="109dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="500dp"
+            android:layout_marginEnd="-128dp"
+            android:background="@drawable/rectangle_5" />
+
+        <TextView
+            android:id="@+id/no_ha_recib"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="88dp"
+            android:layout_marginTop="530dp"
+            android:gravity="center"
+            android:text="@string/no_ha_recib"
+            android:textAppearance="@style/no_ha_recibido"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/buttons_lar"
+            android:layout_width="302dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="62dp"
+            android:layout_marginTop="610dp"
+            android:background="@drawable/buttons_lar"
+            tools:ignore="DuplicateIds">
+
+
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/reenviar_ot"
+            android:layout_width="173dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="127dp"
+            android:layout_marginTop="625dp"
+            android:gravity="top"
+            android:text="@string/reenviar_ot"
+            android:textAppearance="@style/reenviar_ot" />
+
+        <View
+            android:id="@+id/back"
+            android:layout_width="22dp"
+            android:layout_height="26dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="372dp"
+            android:layout_marginTop="826dp"
+            android:background="@drawable/back" /><![CDATA[
+
+        />
+
+    ]]>
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

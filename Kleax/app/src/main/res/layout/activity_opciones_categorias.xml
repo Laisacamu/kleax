@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".opciones_categorias">
+
+    <RelativeLayout
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:clipToOutline="true"
+        android:elevation="4dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="34dp">
+        <TextView
+            android:id="@+id/kleax"
+            android:layout_width="224dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="97dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal|top"
+            android:text="@string/kleax"
+            android:textAppearance="@style/kleaxx" />
+
+        <View
+            android:id="@+id/rectangle_3"
+            android:layout_width="330dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="74dp"
+            android:background="@drawable/rectangle_z" />
+
+        <View
+            android:id="@+id/backa"
+            android:layout_width="wrap_content"
+            android:layout_height="13dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="57dp"
+            android:layout_marginTop="87dp"
+            android:layout_marginRight="338dp"
+            android:background="@drawable/backa" />
+
+        <TextView
+            android:id="@+id/opciones"
+            android:layout_width="91dp"
+            android:layout_height="23dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="82dp"
+            android:gravity="center_vertical"
+            android:text="@string/opciones"
+            android:textAppearance="@style/opciones" />
+
+        <View
+            android:id="@+id/rectangle_2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginTop="210dp"
+            android:background="#45000000" />
+
+        <View
+            android:id="@+id/rectangle_2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginTop="303dp"
+            android:background="#45000000"
+            tools:ignore="DuplicateIds" />
+
+        <View
+            android:id="@+id/rectangle_2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginTop="398dp"
+            android:background="#45000000"
+            tools:ignore="DuplicateIds" />
+
+        <View
+            android:id="@+id/rectangle_3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginTop="497dp"
+            android:background="#45000000"
+            tools:ignore="DuplicateIds" />
+
+        <View
+            android:id="@+id/rectangle_3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="-10dp"
+            android:layout_marginTop="556dp"
+            android:background="#45000000"
+            tools:ignore="DuplicateIds" />
+
+        <TextView
+            android:id="@+id/frutas"
+            android:layout_width="109dp"
+            android:layout_height="31dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="132dp"
+            android:layout_marginTop="152dp"
+            android:gravity="center_vertical"
+            android:text="@string/frutas"
+            android:textAppearance="@style/frutas" />
+
+        <TextView
+            android:id="@+id/verduras"
+            android:layout_width="109dp"
+            android:layout_height="31dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="129dp"
+            android:layout_marginTop="241dp"
+            android:gravity="center_vertical"
+            android:text="@string/verduras"
+            android:textAppearance="@style/verduras" />
+
+        <TextView
+            android:id="@+id/legumbres"
+            android:layout_width="187dp"
+            android:layout_height="31dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="128dp"
+            android:layout_marginTop="433dp"
+            android:gravity="center_vertical"
+            android:text="@string/legumbres"
+            android:textAppearance="@style/legumbres" />
+
+        <TextView
+            android:id="@+id/carnes_fr_a"
+            android:layout_width="187dp"
+            android:layout_height="31dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="129dp"
+            android:layout_marginTop="331dp"
+            android:gravity="center_vertical"
+            android:text="@string/carnes_fr_a"
+            android:textAppearance="@style/carnes_fr_a" />
+
+        <TextView
+            android:id="@+id/ver_todo"
+            android:layout_width="187dp"
+            android:layout_height="31dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="41dp"
+            android:layout_marginTop="514dp"
+            android:gravity="center_vertical"
+            android:text="@string/ver_todo"
+            android:textAppearance="@style/ver_todo" />
+
+        <View
+            android:id="@+id/frutas_1"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="38dp"
+            android:layout_marginTop="136dp"
+            android:background="@drawable/frutas_1" />
+
+        <View
+            android:id="@+id/verduras_1"
+            android:layout_width="58.07dp"
+            android:layout_height="56dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="232dp"
+            android:background="@drawable/verduras_1" />
+
+        <View
+            android:id="@+id/cereal_1"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="421dp"
+            android:background="@drawable/cereal_1" />
+
+        <View
+            android:id="@+id/carnicero_1"
+            android:layout_width="56dp"
+            android:layout_height="52.55dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="39dp"
+            android:layout_marginTop="322dp"
+            android:background="@drawable/carnicero_1" />
+
+        <View
+            android:id="@+id/menu_1"
+            android:layout_width="384dp"
+            android:layout_height="139dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="747dp"
+            android:background="@drawable/menu_1" />
+
+        <View
+            android:id="@+id/home_page"
+            android:layout_width="30.57dp"
+            android:layout_height="27.38dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="790dp"
+            android:background="@drawable/home_page" />
+
+        <View
+            android:id="@+id/search"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="790dp"
+            android:background="@drawable/search2" />
+
+        <View
+            android:id="@+id/shopping_ca"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="790dp"
+            android:background="@drawable/shopping_ca" />
+
+        <View
+            android:id="@+id/document"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="790dp"
+            android:background="@drawable/document" />
+
+        <View
+            android:id="@+id/perfil"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="790dp"
+            android:background="@drawable/perfil2"
+            android:backgroundTint="#CB9DC4E6" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

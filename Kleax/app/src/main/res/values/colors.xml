@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="kleax">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#3B5998</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="compra_hoy_">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#1E1E1E</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="reg_strese">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#E6E6FA</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ya_tienes_u">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#3B5998</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="iniciar_ses">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+    <style name="registrarse">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#3B5998</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="registrarse2">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="o_continua_">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ingresa_N">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#8A000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="acepto_Condiciones">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#3B5998</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">4</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="recordar_contraseña">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="salir">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#007912</item>
+    </style>
+    <style name="perfil">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="verifique_s">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="verifique_a">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="edit">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#ACACFF</item>
+    </style>
+    <style name="some_id">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="verifique_m">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="no_ha_recibido">
+
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">15</item>
+        <item name="android:shadowDy">10</item>
+        <item name="android:shadowRadius">0</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="reenviar_ot">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item></style>
+    <style name="proceso_de_">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="verifique_e">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="huella_digi">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="escanee_su_">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="escaneando_">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="verificando">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="procesoinvalido">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="verifique_g">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="kleaxx">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#AA8DD8</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+    <style name="categor_as">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#711FF3</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+    <style name="panader_a">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#6D28DA</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+    <style name="carnes">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#6D28DA</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+    <style name="bebidas">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#6D28DA</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+    <style name="granos">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#6D28DA</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+    <style name="ofertas">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#711FF3</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+    <style name="m_s_buscado">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#711FF3</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+    <style name="ver_m_s">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#6D28DA</item>
+    </style>
+    <style name="nestl_">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#788897</item>
+    </style>
+    <style name="bono">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#788897</item>
+    </style>
+    <style name="mid">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#788897</item>
+    </style>
+    <style name="crema_de_le">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="bolacha_rel">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="refresco_sa">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="some1_id">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="some2_id">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="some3_id">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="some4_id">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="elma_chips">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#788897</item>
+    </style>
+    <style name="papas_frita">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="qu_buscas_">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#130F26</item>
+    </style>
+    <style name="detalles_de">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="some5_id">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#207824</item>
+    </style>
+    <style name="la_crema_de">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="some6_id">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#007912</item>
+    </style>
+    <style name="comprar">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="opciones">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="frutas">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#0F0F10</item>
+    </style>
+    <style name="verduras">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="legumbres">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="carnes_fr_a">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="ver_todo">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="carrito">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="kleax1">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#AA8DD8</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+    <style name="pago_por_ap">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="kleax10">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#AA8DD8</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+    <style name="pagar_la_en">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="pix">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="visa_cr_dit">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="elo_cr_dito">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="elige_un_m_">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="cr_dito">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="kleax_rp">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#8247E0</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+    <style name="recibiendo_">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="kleax11">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#AA8DD8</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+    <style name="historial_d">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="productos_c">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="fashion_poi">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#212121</item>
+    </style>
+    <style name="some_id_fc">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#33907C</item>
+    </style>
+    <style name="some_id_fc2">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#4F4F4F</item>
+    </style>
+    <style name="rahul">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="fashion_poi1">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#212121</item>
+    </style>
+    <style name="some_id_fc3">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#33907C</item>
+    </style>
+    <style name="fashion_poi2">
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#212121</item>
+    </style>
+    <style name="some_id_fc4">
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#33907C</item>
+    </style>
+    <style name="kleax_sp">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#AA8DD8</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+    <style name="detalles_de2">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+    <style name="some_id_sp">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#4F4F4F</item>
+    </style>
+    <style name="fashion_poi3">
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textColor">#212121</item>
+    </style>
+    <style name="some_id_sp1">
+        <item name="android:textSize">18sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:textColor">#33907C</item>
+    </style>
+    <style name="delivery_ad">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#212121</item>
+    </style>
+    <style name="rahul_chauh">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#212121</item>
+    </style>
+
+</resources>

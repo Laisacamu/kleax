@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".registrarse">
+
+        <RelativeLayout
+            android:id="@+id/fondo_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:clipToOutline="true"
+            android:background="#F5F5DC"
+            tools:ignore="MissingConstraints" >
+
+
+            <Button
+                android:id="@+id/button_crear_cuenta"
+                android:layout_width="180dp"
+                android:layout_height="59dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="184dp"
+                android:layout_marginTop="581dp"
+                android:backgroundTint="#000000"
+                android:text="@string/crear_cuent" />
+
+            <TextView
+                android:id="@+id/iniciar_sesion"
+                android:layout_width="98dp"
+                android:layout_height="18dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="229dp"
+                android:layout_marginTop="669dp"
+                android:gravity="top"
+                android:text="@string/iniciar_ses"
+                android:textAppearance="@style/iniciar_ses" />
+
+            <TextView
+                android:id="@+id/ya_tienes_cuenta"
+                android:layout_width="170dp"
+                android:layout_height="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="194dp"
+                android:layout_marginTop="645dp"
+                android:gravity="top"
+                android:text="@string/ya_tienes_u"
+                android:textAppearance="@style/ya_tienes_u" />
+
+            <EditText
+                android:id="@+id/ingresa_Nombre"
+                android:layout_width="306dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="57dp"
+                android:layout_marginTop="159dp"
+                android:hint="@string/ingresa_Nombre"
+                android:paddingStart="16dp"
+                android:inputType="textPersonName"
+                android:background="@drawable/caja" />
+
+            <!-- Caja para el Usuario -->
+            <EditText
+                android:id="@+id/ingresa_Usuario"
+                android:layout_width="306dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="57dp"
+                android:layout_marginTop="230dp"
+                android:hint="@string/ingresa_Usuario"
+                android:paddingStart="16dp"
+                android:inputType="text"
+                android:background="@drawable/caja" />
+
+            <!-- Caja para el Email -->
+            <EditText
+                android:id="@+id/ingresa_Email"
+                android:layout_width="306dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="57dp"
+                android:layout_marginTop="301dp"
+                android:hint="@string/ingresa_Email"
+                android:paddingStart="16dp"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/caja" />
+
+            <!-- Caja para la Contraseña -->
+
+
+            <EditText
+                android:id="@+id/ingresa_Contraseña"
+                android:layout_width="306dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="57dp"
+                android:layout_marginTop="370dp"
+                android:background="@drawable/caja"
+                android:hint="@string/ingresa_Contraseña"
+                android:inputType="textPassword"
+                android:paddingStart="16dp" />
+
+            <EditText
+                android:id="@+id/ingresa_ConfirmarContraseña"
+                android:layout_width="306dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="57dp"
+                android:layout_marginTop="440dp"
+                android:hint="@string/ingresa_ConfirmarContraseña"
+                android:paddingStart="16dp"
+                android:inputType="textPassword"
+                android:background="@drawable/caja" />
+
+
+            <TextView
+                android:id="@+id/registrarse"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="48dp"
+                android:gravity="top"
+                android:text="@string/registrarse"
+                android:textAppearance="@style/registrarse" />
+
+            <!-- Casilla de aceptación de condiciones -->
+
+            <View
+                android:id="@+id/carrito_de_"
+                android:layout_width="128dp"
+                android:layout_height="120dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="567dp"
+                android:background="@drawable/carrito_de_compras" />
+
+            <CheckBox
+                android:id="@+id/acepto_Condiciones"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="55dp"
+                android:layout_marginTop="498dp"
+                android:gravity="top"
+                android:text="@string/acepto_Condiciones"
+                android:textAppearance="@style/acepto_Condiciones" />
+
+        </RelativeLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

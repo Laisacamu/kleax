@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".metodo_pago">
+
+    <RelativeLayout
+        android:id="@+id/m_todo_de_p"
+        android:layout_width="342dp"
+        android:layout_height="270dp"
+        android:background="#FFFFFF"
+        android:clipToOutline="true"
+        android:elevation="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="467dp">
+
+        <TextView
+            android:id="@+id/elige_un_m_"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="89dp"
+            android:layout_marginTop="33dp"
+            android:gravity="center_vertical"
+            android:text="@string/elige_un_m_"
+            android:textAppearance="@style/elige_un_m_" />
+
+        <TextView
+            android:id="@+id/cr_dito"
+            android:layout_width="66dp"
+            android:layout_height="17dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="125dp"
+            android:layout_marginTop="79dp"
+            android:gravity="center_vertical"
+            android:text="@string/cr_dito"
+            android:textAppearance="@style/cr_dito" />
+
+
+        <TextView
+            android:id="@+id/de_dito"
+            android:layout_width="66dp"
+            android:layout_height="17dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="129dp"
+            android:layout_marginTop="134dp"
+            android:gravity="center_vertical"
+            android:text="Debito"
+            android:textAppearance="@style/cr_dito"
+            tools:ignore="HardcodedText" />
+
+        <View
+            android:id="@+id/agregar_tarjeta"
+            android:layout_width="251.18dp"
+            android:layout_height="30.77dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="198dp"
+            android:background="@drawable/bot_o_entra" />
+
+        <View
+            android:id="@+id/mastercard_"
+            android:layout_width="42dp"
+            android:layout_height="28dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="63dp"
+            android:layout_marginTop="74dp"
+            android:background="@drawable/credito" />
+
+        <View
+            android:id="@+id/credit_card"
+            android:layout_width="42dp"
+            android:layout_height="28dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="65dp"
+            android:layout_marginTop="129dp"
+            android:background="@drawable/debito" />
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/rectangle_metodo_pago"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangle_z"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="80dp"
+        tools:ignore="MissingConstraints" />
+
+
+    <View
+        android:id="@+id/rectangle_4"
+        android:layout_width="166dp"
+        android:layout_height="3dp"
+        android:background="#000000"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="175dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/kleax10"
+        android:layout_width="219dp"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal|top"
+        android:text="@string/kleax"
+        android:textAppearance="@style/kleax10"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="17dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/pago_por_ap"
+        android:layout_width="105dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:text="@string/pago_por_ap"
+        android:textAppearance="@style/pago_por_ap"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="145dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/pagar_la_en"
+        android:layout_width="142dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:text="@string/pagar_la_en"
+        android:textAppearance="@style/pagar_la_en"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="228dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+
+    <TextView
+        android:id="@+id/pix"
+        android:layout_width="33dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:text="@string/pix"
+        android:textAppearance="@style/pix"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="211dp" />
+
+    <TextView
+        android:id="@+id/visa_cr_dit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:text="@string/visa_cr_dit"
+        android:textAppearance="@style/visa_cr_dit"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <TextView
+        android:id="@+id/elo_cr_dito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_vertical"
+        android:text="@string/elo_cr_dito"
+        android:textAppearance="@style/elo_cr_dito"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="132dp"
+        tools:layout_editor_absoluteY="376dp" />
+
+    <View
+        android:id="@+id/logo_pix_ic"
+        android:layout_width="45dp"
+        android:layout_height="43dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/pix"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <View
+        android:id="@+id/cart_o_png_"
+        android:layout_width="55dp"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/visa"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <View
+        android:id="@+id/download_2"
+        android:layout_width="60dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/elo"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="369dp" />
+
+    <View
+        android:id="@+id/rectangle_15"
+        android:layout_width="342dp"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#2B000000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="265dp" />
+
+    <View
+        android:id="@+id/rectangle_16"
+        android:layout_width="342dp"
+        android:layout_height="1dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#2B000000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
