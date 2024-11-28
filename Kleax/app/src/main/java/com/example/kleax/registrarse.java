@@ -24,13 +24,13 @@ import retrofit2.Response;
 
 public class registrarse extends AppCompatActivity {
 
-    private EditText nombreField;
-    private EditText usuarioField;
-    private EditText emailField;
-    private EditText passwordField;
-    private EditText confirmarPasswordField;
-    private CheckBox aceptarCondiciones;
-    private Button botonCrearCuenta;
+        private EditText nombreField;
+        private EditText usuarioField;
+        private EditText emailField;
+        private EditText passwordField;
+        private EditText confirmarPasswordField;
+        private CheckBox aceptarCondiciones;
+        private Button botonCrearCuenta;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
