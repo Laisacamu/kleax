@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".iniciar_sesion">
+
+    <RelativeLayout
+        android:id="@+id/fondo_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#F5F5DC"
+        android:clipToOutline="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+
+        <!-- Auto layout, variables, and unit scale are not yet supported -->
+
+        <TextView
+            android:id="@+id/kleax10"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="85dp"
+            android:layout_marginTop="23dp"
+            android:gravity="center_horizontal|top"
+            android:text="@string/kleax"
+            android:textAppearance="@style/kleax10"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="91dp"
+            tools:layout_editor_absoluteY="17dp" />
+
+        <TextView
+            android:id="@+id/registrarse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="83dp"
+            android:layout_marginTop="84dp"
+            android:gravity="top"
+            android:text="@string/iniciar_sesion"
+            android:textAppearance="@style/registrarse" />
+
+        <TextView
+            android:id="@+id/contrase_a"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="62dp"
+            android:layout_marginTop="281dp"
+            android:gravity="top"
+            android:text="@string/contrase_a"
+            android:textAppearance="@style/o_continua_" />
+
+        <TextView
+            android:id="@+id/la_olvidast"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="253dp"
+            android:layout_marginTop="284dp"
+            android:gravity="top"
+            android:text="@string/la_olvidast"
+            android:textAppearance="@style/recordar_contraseña" />
+
+        <EditText
+            android:id="@+id/caja_2"
+            android:layout_width="306dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="317dp"
+            android:background="@drawable/caja"
+            android:hint="@string/ingresa_Contraseña"
+            android:inputType="textPassword"
+            android:paddingStart="16dp" />
+
+        <CheckBox
+            android:id="@+id/recordar_co"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="360dp"
+            android:gravity="center_vertical"
+            android:text="@string/recordar_co"
+            android:textAppearance="@style/recordar_contraseña"
+            android:textColor="#3B5998" />
+
+        <Button
+            android:id="@+id/button_registrarse3"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="82dp"
+            android:layout_marginTop="476dp"
+            android:backgroundTint="#000000"
+            android:text="@string/iniciar_ses"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/no_tiene_cu"
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="133dp"
+            android:layout_marginTop="552dp"
+            android:gravity="top"
+            android:text="@string/no_tiene_cu"
+            android:textAppearance="@style/ya_tienes_u" />
+
+        <TextView
+            android:id="@+id/reg_strese"
+            android:layout_width="98dp"
+            android:layout_height="34dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="165dp"
+            android:layout_marginTop="586dp"
+            android:gravity="top"
+            android:text="@string/reg_strese"
+            android:textAppearance="@style/o_continua_" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="61dp"
+            android:layout_marginTop="160dp"
+            android:gravity="top"
+            android:text="@string/email"
+
+            android:textAppearance="@style/o_continua_" />
+
+        <EditText
+            android:id="@+id/caja_1"
+            android:layout_width="306dp"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="196dp"
+            android:background="@drawable/caja"
+            android:hint="@string/ingresa_Email"
+            android:inputType="textEmailAddress"
+            android:paddingStart="16dp" />
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
