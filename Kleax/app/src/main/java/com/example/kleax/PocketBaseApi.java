@@ -60,6 +60,6 @@ public interface PocketBaseApi {
             @Path("id") String productoId);
 
     // Endpoint para restablecer la contraseña
-    @POST("/api/collections/users/requestPasswordReset")
+    @POST("/api/collections/users/request-password-reset")
     Call<Map<String, Object>> requestPasswordReset(@Body Map<String, String> body);
 }
