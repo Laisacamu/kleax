@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#F5F5DC">
+
+    <!-- Título "Agrega Tarjeta" -->
+    <TextView
+        android:id="@+id/registrarse"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="81dp"
+        android:gravity="top"
+        android:text="Agrega Tarjeta"
+        android:textAppearance="@style/registrarse" />
+
+    <!-- Campo para Número de Tarjeta -->
+    <EditText
+        android:id="@+id/numero_tarjeta"
+        android:layout_width="306dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="159dp"
+        android:background="@drawable/caja"
+        android:hint="Número de tarjeta"
+        android:inputType="text"
+        android:paddingStart="16dp"
+        android:textColor="#000000"
+        android:textColorHint="#666666"
+        tools:ignore="RtlSymmetry" />
+
+    <!-- Campo para Fecha de Expiración -->
+    <EditText
+        android:id="@+id/fecha_expiracion"
+        android:layout_width="306dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="207dp"
+        android:background="@drawable/caja"
+        android:hint="Fecha de expiración"
+        android:inputType="text"
+        android:paddingStart="16dp"
+        android:textColor="#000000"
+        android:textColorHint="#666666"
+        tools:ignore="RtlSymmetry" />
+
+    <!-- Campo para CVC -->
+    <EditText
+        android:id="@+id/cvc"
+        android:layout_width="306dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="255dp"
+        android:background="@drawable/caja"
+        android:hint="CVC"
+        android:inputType="text"
+        android:paddingStart="16dp"
+        android:textColor="#000000"
+        android:textColorHint="#666666"
+        tools:ignore="RtlSymmetry" />
+
+    <!-- Campo para Titular -->
+    <EditText
+        android:id="@+id/titular"
+        android:layout_width="306dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="303dp"
+        android:background="@drawable/caja"
+        android:hint="Titular"
+        android:inputType="text"
+        android:paddingStart="16dp"
+        android:textColor="#000000"
+        android:textColorHint="#666666"
+        tools:ignore="RtlSymmetry" />
+
+    <!-- Botón para Guardar Tarjeta -->
+    <Button
+        android:id="@+id/btn_guardar_tarjeta"
+        android:layout_width="300dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="370dp"
+        android:backgroundTint="#000000"
+        android:text="Guardar Tarjeta" />
+
+    <!-- Texto adicional -->
+    <TextView
+        android:id="@+id/kleax10"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="18dp"
+        android:gravity="center_horizontal|top"
+        android:text="@string/kleax"
+        android:textAppearance="@style/kleax10"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="17dp" />
+
+</RelativeLayout>
